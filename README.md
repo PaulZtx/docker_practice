@@ -4,17 +4,15 @@
 
 Сделаем сборку server  
 
-![изображение](https://github.com/Murken-0/docker-vulnerabilities/assets/71382530/afd0e2d6-4036-46d3-a882-cfc2e132f39b)
+
    
 С помощью команды docker-compose up -d развернем сервисы. В браузере по адресу localhost:8080 увидим результат
 
-![изображение](https://github.com/Murken-0/docker-vulnerabilities/assets/71382530/2d07d648-0d35-474c-9c70-4fbc617e37c5)
    
 # trivy
 
 Установим trivy.
 
-![изображение](https://github.com/Murken-0/docker-vulnerabilities/assets/71382530/98dc1669-b475-44de-823b-af8c0b7579a0)
 
 Запустим сканирование. В начале произойдет загрузка БД с уязвимостями. Далее появятся найденные уязвимости.
 
